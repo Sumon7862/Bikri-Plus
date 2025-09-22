@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Container from "./Container";
 import Flex from "./Flex";
-import Logo from '../assets/Logo.png'
 import ListUl from "./ListUl";
 import ListLi from "./ListLi";
 import { CiHeart } from "react-icons/ci";
@@ -35,7 +34,7 @@ const Navbar = () => {
           <Flex className='flex justify-between items-center'>
             <div className="w-[25%] pl-2.5 lg:pl-0">
               <NavLink to='/'>
-                <img src={Logo} alt="" />
+                <p className="text-[24px] font-bold">Bikri Plus</p>
               </NavLink>
             </div>
 
